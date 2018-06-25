@@ -14,11 +14,11 @@ In the first project of the udacity self-driving car course we had to find lane 
 
 Edges from canny edge detection             |  Masked edges
 :-------------------------:|:-------------------------:
-![](https://github.com/CYHSM/carnd/blob/master/CarND-LaneLines-P1/test_images/pipeline/original.jpg?raw=true)  |  ![](https://github.com/CYHSM/carnd/blob/master/CarND-LaneLines-P1/test_images/pipeline/blur.jpg?raw=true)
+![](CarND-Term1-P1/test_videos_output/edges.png?raw=true)  |  ![](CarND-Term1-P1/test_videos_output/mask.png?raw=true)
 
 Extrapolated lines from Hough transformation             |  Result
 :-------------------------:|:-------------------------:
-![](https://github.com/CYHSM/carnd/blob/master/CarND-LaneLines-P1/test_images/pipeline/canny.jpg?raw=true)  |  ![](https://github.com/CYHSM/carnd/blob/master/CarND-LaneLines-P1/test_images/pipeline/lines.jpg?raw=true)
+![](CarND-Term1-P1/test_videos_output/line.png?raw=true)  |  ![](CarND-Term1-P1/test_videos_output/test_result.png?raw=true)
 
 ## Pipeline
 In order to draw a single line on the left and right lanes from the extracted edges, I modified the draw_lines() function. The basic idea is to find out all potential line segments and then average all the involved points into 2 single lines on each side.
@@ -48,6 +48,6 @@ The current method works well on first two videos but failed to be applied on th
 
 
 ### Video White
-[![Video White](https://github.com/CYHSM/carnd/blob/master/CarND-LaneLines-P1/white.gif?raw=true)]
+[![Video White](CarND-Term1-P1/test_videos_output/solidWhiteRight.mp4?raw=true)]
 ### Video Yellow
-[![Video Yellow](https://github.com/CYHSM/carnd/blob/master/CarND-LaneLines-P1/yellow.gif?raw=true)]
+[![Video Yellow](CarND-Term1-P1/test_videos_output/solidYellowLeft.mp4?raw=true)]
