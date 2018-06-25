@@ -47,7 +47,9 @@ There several shortcomings of the current method:
 The current method works well on first two videos but failed to be applied on the challenge task, the extracted line tend to be unstable. Instead of using the least squre method to extrapolate lines from points, calculating the average slope directly from line segments from the result of Hough Transform may bring improvement.
 
 
-### Video White
-[![Video White](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif)]
-### Video Yellow
+### Video
+Solid White Right | Solid Yellow Left
+:-------------------------:|:-------------------------:
+[![Video White](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif)] |
+
 [![Video Yellow](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif)]
