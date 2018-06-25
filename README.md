@@ -48,6 +48,6 @@ The current method works well on first two videos but failed to be applied on th
 
 
 ### Video White
-[![Video White](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.mp4?raw=true)]
+[![Video White](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif?raw=true)]
 ### Video Yellow
-[![Video Yellow](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.mp4?raw=true)]
+[![Video Yellow](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif?raw=true)]
