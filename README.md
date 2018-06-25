@@ -50,5 +50,5 @@ The current method works well on first two videos but failed to be applied on th
 ### Video
 Solid White Right | Solid Yellow Left
 :-------------------------:|:-------------------------:
-<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif" width="400" /> |
-<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif" width="400" />
+<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif" width="350" /> |
+<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif" width="350" />
