@@ -32,15 +32,15 @@ First, I converted the images to grayscale, then Gaussian smoothing and Canny ed
 ### 2. using the weighted least square method to calculate the best fitted line for all points on each side
 
 The weighted least square method is applied to calculate the best fitted line for all points on the left or right side, the weight of points is proportional the length of each line segment and only the longest n segments are going to be taken into account.
-    * basci least square: $y = kx + b = Ap$, where $A = [[x 1]]$ and $p = [[k], [b]]$
-    * add weight: $Aw = A * np.sqrt(W[:,np.newaxis]), yw = y * np.sqrt(W)$
-    * $k, b = np.linalg.lstsq(Aw, y)[0]$
++ basci least square: $$ y = kx + b = Ap $$, where $$ A = [[x 1]] $ and $ p = [[k], [b]] $$
++ add weight: $$ Aw = A * np.sqrt(W[:,np.newaxis]), yw = y * np.sqrt(W) $$
++ $ k, b = np.linalg.lstsq(Aw, y)[0] $
 
 
 ### 3. potential shortcomings
 There several shortcomings of the current method:
-    * The result is very sensitve to the parameters of Canny Edge Detection and Hough Transform.
-    * The region of interest must be defined for this method to work, yet unexpected situations exist when the vehicle is not heading to the direction of road.
++ The result is very sensitve to the parameters of Canny Edge Detection and Hough Transform.
++ The region of interest must be defined for this method to work, yet unexpected situations exist when the vehicle is not heading to the direction of road.
     
 ### 4.possible improvement
 
@@ -48,6 +48,6 @@ The current method works well on first two videos but failed to be applied on th
 
 
 ### Video White
-[![Video White](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif?raw=true| width=500)]
+[![Video White](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif?raw=true width="200px")]
 ### Video Yellow
-[![Video Yellow](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif?raw=true| width=500)]
+[![Video Yellow](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif?raw=true| width="200px")]
