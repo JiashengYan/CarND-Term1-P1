@@ -32,7 +32,7 @@ First, I converted the images to grayscale, then Gaussian smoothing and Canny ed
 ### 2. using the weighted least square method to calculate the best fitted line for all points on each side
 
 The weighted least square method is applied to calculate the best fitted line for all points on the left or right side, the weight of points is proportional the length of each line segment and only the longest n segments are going to be taken into account.
-+ basci least square: $$ y = kx + b = Ap $$, where $$ A = [[x 1]] $ and $ p = [[k], [b]] $$
++ basci least square: $$y = kx + b = Ap$$, where $$ A = [[x 1]] $ and $ p = [[k], [b]] $$
 + add weight: $$ Aw = A * np.sqrt(W[:,np.newaxis]), yw = y * np.sqrt(W) $$
 + $ k, b = np.linalg.lstsq(Aw, y)[0] $
 
