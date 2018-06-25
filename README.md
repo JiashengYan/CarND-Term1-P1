@@ -44,10 +44,12 @@ There several shortcomings of the current method:
     
 ### 4.possible improvement
 
-The current method works well on first two videos but failed to be applied on the challenge task, the extracted line tend to be unstable. Instead of using the least squre method to extrapolate lines from points, calculating the average slope directly from line segments from the result of Hough Transform may bring improvement.
+* The current method works well on first two videos but failed to be applied on the challenge task, the extracted line tend to be unstable. Instead of using the least squre method to extrapolate lines from points, calculating the average slope directly from line segments from the result of Hough Transform may bring improvement.
+* Right now the detected lines are based on image of current frame, integrating the historical lines may improve the stability.
 
 
 ### 5.Video
-Solid White Right | Solid Yellow Left
-:-------------------------:|:-------------------------:
-<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif" width="350" /> | <img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif" width="350" />
+#### Solid White Right 
+<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif" width="500" />
+#### Solid Yellow Left
+<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif" width="500" />
