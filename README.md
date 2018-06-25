@@ -14,7 +14,7 @@ In the first project of the udacity self-driving car course we had to find lane 
 
 Edges from canny edge detection             |  Masked edges
 :-------------------------:|:-------------------------:
-![](https://github.com/JiashengYan/blob/master/CarND-Term1-P1/test_videos_output/edges.png?raw=true)  |  ![](https://github.com/JiashengYan/CarND-Term1-P1/test_videos_output/mask.png?raw=true)
+![](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/edges.png?raw=true)  |  ![](https://github.com/JiashengYan/CarND-Term1-P1/test_videos_output/mask.png?raw=true)
 
 Extrapolated lines from Hough transformation             |  Result
 :-------------------------:|:-------------------------:
