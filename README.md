@@ -50,6 +50,6 @@ The current method works well on first two videos but failed to be applied on th
 ### Video
 Solid White Right | Solid Yellow Left
 :-------------------------:|:-------------------------:
-![Solid White Right](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif) |
+<img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif" width="100" height="100" /> |
 
 ![Video Yellow](https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif)
