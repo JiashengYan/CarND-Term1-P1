@@ -32,7 +32,7 @@ First, I converted the images to grayscale, then Gaussian smoothing and Canny ed
 ### 2. using the weighted least square method to calculate the best fitted line for all points on each side
 
 The weighted least square method is applied to calculate the best fitted line for all points on the left or right side, the weight of points is proportional the length of each line segment and only the longest n segments are going to be taken into account.
-+ basci least square: y = kx + b = Ap, where A = [[x 1]] and p = [[k], [b]]
++ basic least square: y = kx + b = Ap, where A = [[x 1]] and p = [[k], [b]]
 + add weight: Aw = A * np.sqrt(W[:,np.newaxis]), yw = y * np.sqrt(W)
 + k, b = np.linalg.lstsq(Aw, y)[0] 
 
@@ -47,7 +47,7 @@ There several shortcomings of the current method:
 The current method works well on first two videos but failed to be applied on the challenge task, the extracted line tend to be unstable. Instead of using the least squre method to extrapolate lines from points, calculating the average slope directly from line segments from the result of Hough Transform may bring improvement.
 
 
-### Video
+### 5.Video
 Solid White Right | Solid Yellow Left
 :-------------------------:|:-------------------------:
 <img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidWhiteRight.gif" width="350" /> | <img src="https://github.com/JiashengYan/CarND-Term1-P1/blob/master/test_videos_output/solidYellowLeft.gif" width="350" />
